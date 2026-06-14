@@ -74,3 +74,4 @@ Steps:
 - Skills section
 - Blog / writing section
 - Dark/light theme toggle
+- Education section
