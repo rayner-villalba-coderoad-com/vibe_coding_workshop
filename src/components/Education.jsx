@@ -1,14 +1,14 @@
-import { educations } from '../data/education'
+import { education } from '../data/education'
 
-
-asdasd testing 
-var a = 1;
-
+/**
+ * Renders the Education section, displaying a list of educational achievements.
+ * Data is imported from '../data/education'.
+ */
 export default function Education() {
   return (
     <section id="education">
       <h2><span className="accent">&gt;</span> Education</h2>
-      {educations.map(item => (
+      {education.map(item => (
         <div key={item.id} className="card">
           <div className="card-header">
             <div>
