@@ -1,3 +1,14 @@
+/**
+ * @typedef {Object} EducationEntry
+ * @property {number} id
+ * @property {string} degree
+ * @property {string} institution
+ * @property {string} period
+ * @property {string} description
+ * @property {string[]} tags
+ */
+
+/** @type {EducationEntry[]} */
 export const education = [
   {
     id: 1,
