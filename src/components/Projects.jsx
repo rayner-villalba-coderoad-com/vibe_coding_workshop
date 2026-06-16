@@ -10,7 +10,7 @@ export default function Projects() {
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <div className="tags">
-              {projectss.tags.map(tag => <span key={tag}>{tag}</span>)}
+              {project.tags.map(tag => <span key={tag}>{tag}</span>)}
             </div>
             <div className="project-links">
               {project.links.map(link => (
