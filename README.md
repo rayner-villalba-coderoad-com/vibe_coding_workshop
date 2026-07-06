@@ -15,13 +15,13 @@ A personal portfolio website for Rayner Villalba, Software Developer. Built with
 
 | Layer | Choice |
 |---|---|
-| UI framework | React 19 (see `package.json`) |
-| Build tool | Vite 8 (see `package.json`) |
+| UI framework | React 19.x |
+| Build tool | Vite 8.x |
 | Styling | CSS custom properties (no CSS-in-JS, no utility framework) |
 | Animations | Intersection Observer API |
 | Language | JSX / JavaScript |
 
-No external UI libraries. No state management library. Dependencies are intentionally minimal. See `package.json` for patch-level versions.
+No external UI libraries. No state management library. Dependencies are intentionally minimal. See `package.json` for full version details.
 
 ## Project Structure
 
