@@ -1,8 +1,5 @@
 import { experience } from '../data/experience'
 
-asdasd 
-var b =1 
-asd 
 export default function Experience() {
   return (
     <section id="experience">
@@ -11,10 +8,10 @@ export default function Experience() {
         <div key={job.id} className="card">
           <div className="card-header">
             <div>
-              <h3>{job.titles}</h3>
-              <p className="org">{job.orgs}</p>
+              <h3>{job.title}</h3>
+              <p className="org">{job.org}</p>
             </div>
-            <span className="date">{job.periods}</span>
+            <span className="date">{job.period}</span>
           </div>
           <ul>
             {job.bullets.map((b, i) => <li key={i}>{b}</li>)}

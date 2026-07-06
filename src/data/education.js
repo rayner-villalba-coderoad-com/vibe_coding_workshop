@@ -1,4 +1,4 @@
-export const education = [
+export const educations = [
   {
     id: 1,
     degree: 'B.Sc. Computer Science',
