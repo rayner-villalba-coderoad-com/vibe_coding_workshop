@@ -15,13 +15,13 @@ A personal portfolio website for Rayner Villalba, Software Developer. Built with
 
 | Layer | Choice |
 |---|---|
-| UI framework | React 19 |
-| Build tool | Vite 8 |
+| UI framework | React |
+| Build tool | Vite |
 | Styling | CSS custom properties (no CSS-in-JS, no utility framework) |
 | Animations | Intersection Observer API |
 | Language | JSX / JavaScript |
 
-No external UI libraries. No state management library. Dependencies are intentionally minimal.
+No external UI libraries. No state management library. Dependencies are intentionally minimal. See `package.json` for exact versions.
 
 ## Project Structure
 
@@ -71,7 +71,6 @@ npm run preview   # preview the production build locally
 
 - **Colors** — all defined as CSS custom properties in `src/styles/`. Change `--accent`, `--bg`, `--text`, etc. in one place to retheme the entire site.
 - **Content** — edit `src/data/experience.js` and `src/data/projects.js`.
-- **Education** — edit `src/data/education.js`.
 - **Contact links** — edit `src/components/Hero.jsx` (email, GitHub, LinkedIn URLs).
 
 ## Linting
