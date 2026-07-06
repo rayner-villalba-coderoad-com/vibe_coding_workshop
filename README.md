@@ -70,7 +70,7 @@ npm run preview   # preview the production build locally
 ## Customization
 
 - **Colors** — all defined as CSS custom properties in `src/styles/`. Change `--accent`, `--bg`, `--text`, etc. in one place to retheme the entire site.
-- **Content** — edit `src/data/experience.js`, `src/data/projects.js`, and `src/data/education.js`.
+- **Content** — edit `src/data/experience.js` and `src/data/projects.js`.
 - **Education** — edit `src/data/education.js`.
 - **Contact links** — edit `src/components/Hero.jsx` (email, GitHub, LinkedIn URLs).
 
