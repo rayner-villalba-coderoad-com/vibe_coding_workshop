@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import Hero from './components/Hero'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
+import Education from './components/Education'
 import Contact from './components/Contact'
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
       <main>
         <Experience />
         <Projects />
+        <Education />
       </main>
       <Contact />
     </>
