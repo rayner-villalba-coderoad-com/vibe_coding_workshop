@@ -8,8 +8,8 @@ A personal portfolio website built with Vite + React.
 
 Key source files:
 - `src/App.jsx` — root component; composes Hero, Experience, Projects, Education, Contact
-- `src/components/` — individual section components
-- `src/data/` — content arrays (experience, projects, education)
+- `src/components/` — individual section components (Hero, Experience, Projects, Education, Contact)
+- `src/data/` — content arrays: `experience.js`, `projects.js`, `education.js`
 - `src/styles/global.css` — all styling via CSS custom properties
 
 ## Running Locally
@@ -31,7 +31,13 @@ Output is in `dist/`.
 
 ## Architecture
 
-**CSS custom properties** (defined in `:root` in `src/styles/global.css`) control the entire color scheme.
+**CSS custom properties** (defined in `:root` in `src/styles/global.css`) control the entire color scheme. Core variables:
+- `--bg`, `--surface`: background layers
+- `--accent`, `--accent-dim`: interactive/highlight colors
+- `--text`, `--muted`: typography
+- `--border`, `--tag-bg`, `--tag-color`: card borders and tag chips
+
+Always use these variables rather than hardcoding colors.
 
 **Data layer:** Content lives in `src/data/*.js` as exported arrays of objects. Components import and `.map()` over these arrays.
 
