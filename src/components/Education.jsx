@@ -1,9 +1,5 @@
 import { educations } from '../data/education'
 
-
-asdasd testing 
-var a = 1;
-
 export default function Education() {
   return (
     <section id="education">
